@@ -17,6 +17,7 @@ install -Dm 755 /usr/bin/pacman-conf-static $MODDIR/system/bin/pacman-conf
 ln -sf repo-add $MODDIR/system/bin/repo-remove
 ln -sf repo-add $MODDIR/system/bin/repo-elephant
 # install file
+install -Dm644 /etc/resolv.conf -t $MODDIR/system/etc
 install -Dm644 /etc/pacman.conf -t $MODDIR/system/etc
 install -Dm644 /etc/makepkg.conf -t $MODDIR/system/etc
 install -Dm644 /etc/pacman.d/mirrorlist -t $MODDIR/system/etc/pacman.d
