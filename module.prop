@@ -1,0 +1,6 @@
+id=pacman-static
+name=Pacman Static
+version=6.0.2-6
+versionCode=1
+author=5kind
+description=Provide pacman-static in Android devices for pacstrap.
