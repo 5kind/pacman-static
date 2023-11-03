@@ -1,9 +1,6 @@
 <h1 align="center">Systemless Pacman</h1>
 
 <div align="center">
-  <!-- Version -->
-    <img src="https://github.com/chaitanyarahalkar/Pacman-Static"
-      alt="Version" />
   <!-- Min Magisk -->
     <img src="https://img.shields.io/badge/MinMagisk-20.4-red.svg?longCache=true&style=flat-square"
       alt="_time_stamp_" />
