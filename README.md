@@ -21,6 +21,14 @@
   </h3>
 </div>
 
+### Build
+1. Install `git` `zip` `pacman-static` in current architecture archlinux container;
+2. `git clone http://github.com/5kind/pacman-static && cd pacman-static  && ./update-binary.sh`
+3. Modify files under [system/etc](system/etc/) to support https, choose mirrorlist/resolv.conf ... [optional]
+4. run `zip -r install.zip *` in container, push `install.zip` to your device and install.
+
+
 ### Usage
-- Install chroot-service modules.
-- pacstrap -h
+- Install [chroot-service](http://github.com/5kind/chroot-service) modules.
+- `pacstrap -h`
+- `pacstrap $CHROOTDIR`
